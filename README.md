@@ -1,78 +1,102 @@
-FieldForce — Construction Field Management App
+# FieldForce — Construction Field Management App
 
-A responsive React.js web application designed to help manage construction site operations such as project tracking, daily progress reporting, and site updates.
+A responsive React.js web application for managing construction site operations including project tracking, daily progress reporting, and team management.
 
-This project demonstrates frontend development skills using modern React tools.
+---
 
-🚀 Tech Stack
+## 📋 Project Overview
 
-React.js 18
-
-Tailwind CSS
-
-React Router v6
-
-Vite
-
-JavaScript (ES6+)
-
-✨ Features
-
-🔐 Login with mock authentication
-
-📋 Project list with search and status filter
-
-📝 Daily Progress Report (DPR) Form
-
-📷 Photo upload with preview
-
-🌙 Dark mode toggle
-
-📱 Fully responsive design (Mobile / Tablet / Desktop)
-
-⚠️ Input validation with error messages
-
-📦 Installation & Running
-Prerequisites
-
-Node.js v18+
-
-npm
-
-Steps
-npm install
-npm run dev
-
-Then open:
-
-http://localhost:5173
-🔑 Demo Login Credentials
-Email: test@test.com
-Password: 123456
-📂 Project Structure
-src/
-├── components/   → Navbar, ProjectCard, ImagePreview, DarkModeToggle
-├── context/      → AuthContext (global state)
-├── data/         → projects.js (mock data)
-├── pages/        → Login, Projects, DPRForm
-└── utils/        → validation.js
 This project was built as part of a Frontend Developer internship task to demonstrate:
 
-React component architecture
+- React component architecture
+- State management using Context API
+- Responsive UI design
+- Form validation
+- Modern frontend development workflow
 
-State management using Context API
+---
 
-Responsive UI design
+## 🛠️ Tech Stack
 
-Form validation
+- **React.js 18**
+- **Tailwind CSS**
+- **React Router v6**
+- **Vite**
+- **Context API** (state management)
 
-Modern frontend development workflow
+---
 
-👩‍💻 Author
+## ✨ Features
 
-Riya Rajesh Shinde
+- 🔐 Login with mock authentication
+- 📁 Project List with search & status filter
+- 📝 Daily Progress Report (DPR) Form
+- 📸 Photo upload with preview thumbnails
+- 🌙 Dark mode toggle
+- 📱 Fully responsive (mobile, tablet, desktop)
+- ✅ Input validation with descriptive error messages
+- 🔔 Toast notifications on form submission
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js v18+
+- npm
+
+### Installation & Running
+```bash
+# Clone the repository
+git clone https://github.com/Riya2809/construction-dpr-app.git
+
+# Navigate into the project
+cd construction-dpr-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+Open your browser at `http://localhost:5173`
+
+---
+
+## 🔑 Login Credentials
+```
+Email:    test@test.com
+Password: 123456
+```
+
+---
+
+## 📁 Folder Structure
+```
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── ProjectCard.jsx
+│   ├── ImagePreview.jsx
+│   └── DarkModeToggle.jsx
+├── context/
+│   └── AuthContext.jsx
+├── data/
+│   └── projects.js
+├── pages/
+│   ├── Login.jsx
+│   ├── Projects.jsx
+│   └── DPRForm.jsx
+└── utils/
+    └── validation.js
+```
+
+---
+
+## 👩‍💻 Author
+
+**Riya Rajesh Shinde**
 Frontend Developer | B.Tech CSE (2026)
 
-GitHub:
-
-https://github.com/Riya2809
+GitHub: [https://github.com/Riya2809]
