@@ -16,6 +16,12 @@ This project was built as part of a Frontend Developer internship task to demons
 
 ---
 
+## 📸 Screenshots
+
+| Login | Projects | DPR Form |
+|-------|----------|----------|
+| ![Login](screenshots/login.png) | ![Projects](screenshots/projects.png) | ![DPR Form](screenshots/dpr-form.png) |
+
 ## 🛠️ Tech Stack
 
 - **React.js 18**
